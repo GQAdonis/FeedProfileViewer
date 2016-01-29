@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0EEAD2B63C30803B225D0AA /* Pods_FeedProfileViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A57F4B5F28C272DF83B754 /* Pods_FeedProfileViewer.framework */; };
+		ED14ED861C5B340500D10786 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED14ED851C5B340500D10786 /* Profile.swift */; };
+		ED14ED881C5B342700D10786 /* ProfileListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED14ED871C5B342700D10786 /* ProfileListViewModel.swift */; };
+		ED14ED8A1C5B343D00D10786 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED14ED891C5B343D00D10786 /* ProfileViewModel.swift */; };
+		ED14ED8C1C5B346000D10786 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED14ED8B1C5B346000D10786 /* ProfileService.swift */; };
+		ED14ED8F1C5B353900D10786 /* ProfileListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED14ED8E1C5B353900D10786 /* ProfileListTableViewController.swift */; };
+		ED14ED921C5B359100D10786 /* ProfileDetailSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED14ED911C5B359100D10786 /* ProfileDetailSegue.swift */; };
+		ED14ED941C5B35C100D10786 /* ProfileDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED14ED931C5B35C100D10786 /* ProfileDetailTableViewController.swift */; };
+		ED14ED971C5B393F00D10786 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED14ED961C5B393F00D10786 /* ProfileTableViewCell.swift */; };
 		EDD44EC41C5B30FE00405DA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD44EC31C5B30FE00405DA3 /* AppDelegate.swift */; };
 		EDD44EC61C5B30FE00405DA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD44EC51C5B30FE00405DA3 /* ViewController.swift */; };
 		EDD44EC91C5B30FE00405DA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDD44EC71C5B30FE00405DA3 /* Main.storyboard */; };
@@ -34,6 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45512617EA796683720041A7 /* Pods-FeedProfileViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedProfileViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeedProfileViewer/Pods-FeedProfileViewer.release.xcconfig"; sourceTree = "<group>"; };
+		72A57F4B5F28C272DF83B754 /* Pods_FeedProfileViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeedProfileViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D16EF54AD106DD23E01B5ED2 /* Pods-FeedProfileViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedProfileViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeedProfileViewer/Pods-FeedProfileViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		ED14ED851C5B340500D10786 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		ED14ED871C5B342700D10786 /* ProfileListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileListViewModel.swift; sourceTree = "<group>"; };
+		ED14ED891C5B343D00D10786 /* ProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		ED14ED8B1C5B346000D10786 /* ProfileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		ED14ED8E1C5B353900D10786 /* ProfileListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileListTableViewController.swift; sourceTree = "<group>"; };
+		ED14ED911C5B359100D10786 /* ProfileDetailSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDetailSegue.swift; sourceTree = "<group>"; };
+		ED14ED931C5B35C100D10786 /* ProfileDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDetailTableViewController.swift; sourceTree = "<group>"; };
+		ED14ED961C5B393F00D10786 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
 		EDD44EC01C5B30FD00405DA3 /* FeedProfileViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedProfileViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDD44EC31C5B30FE00405DA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDD44EC51C5B30FE00405DA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0EEAD2B63C30803B225D0AA /* Pods_FeedProfileViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +95,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C76E1AA6F4DFC9950891777 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72A57F4B5F28C272DF83B754 /* Pods_FeedProfileViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C9830CC2141D2064B02FDB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D16EF54AD106DD23E01B5ED2 /* Pods-FeedProfileViewer.debug.xcconfig */,
+				45512617EA796683720041A7 /* Pods-FeedProfileViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED14ED821C5B337C00D10786 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED14ED851C5B340500D10786 /* Profile.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED14ED831C5B338700D10786 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ED14ED871C5B342700D10786 /* ProfileListViewModel.swift */,
+				ED14ED891C5B343D00D10786 /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ED14ED841C5B339500D10786 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ED14ED8B1C5B346000D10786 /* ProfileService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		ED14ED8D1C5B34D100D10786 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED14ED8E1C5B353900D10786 /* ProfileListTableViewController.swift */,
+				ED14ED931C5B35C100D10786 /* ProfileDetailTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ED14ED901C5B354F00D10786 /* Segues */ = {
+			isa = PBXGroup;
+			children = (
+				ED14ED911C5B359100D10786 /* ProfileDetailSegue.swift */,
+			);
+			path = Segues;
+			sourceTree = "<group>";
+		};
+		ED14ED951C5B391100D10786 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED14ED961C5B393F00D10786 /* ProfileTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EDD44EB71C5B30FD00405DA3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +169,8 @@
 				EDD44ED71C5B30FE00405DA3 /* FeedProfileViewerTests */,
 				EDD44EE21C5B30FE00405DA3 /* FeedProfileViewerUITests */,
 				EDD44EC11C5B30FD00405DA3 /* Products */,
+				2C9830CC2141D2064B02FDB4 /* Pods */,
+				0C76E1AA6F4DFC9950891777 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +187,12 @@
 		EDD44EC21C5B30FD00405DA3 /* FeedProfileViewer */ = {
 			isa = PBXGroup;
 			children = (
+				ED14ED951C5B391100D10786 /* Views */,
+				ED14ED901C5B354F00D10786 /* Segues */,
+				ED14ED8D1C5B34D100D10786 /* ViewControllers */,
+				ED14ED841C5B339500D10786 /* Services */,
+				ED14ED831C5B338700D10786 /* ViewModels */,
+				ED14ED821C5B337C00D10786 /* Models */,
 				EDD44EC31C5B30FE00405DA3 /* AppDelegate.swift */,
 				EDD44EC51C5B30FE00405DA3 /* ViewController.swift */,
 				EDD44EC71C5B30FE00405DA3 /* Main.storyboard */,
@@ -132,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDD44EE81C5B30FE00405DA3 /* Build configuration list for PBXNativeTarget "FeedProfileViewer" */;
 			buildPhases = (
+				4EFF562B567B931A5AD5E500 /* Check Pods Manifest.lock */,
 				EDD44EBC1C5B30FD00405DA3 /* Sources */,
 				EDD44EBD1C5B30FD00405DA3 /* Frameworks */,
 				EDD44EBE1C5B30FD00405DA3 /* Resources */,
+				C3B156CA0832CB2648BD457E /* Embed Pods Frameworks */,
+				F370DD514FB2A21B86264C8B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +350,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4EFF562B567B931A5AD5E500 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B156CA0832CB2648BD457E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeedProfileViewer/Pods-FeedProfileViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F370DD514FB2A21B86264C8B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeedProfileViewer/Pods-FeedProfileViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDD44EBC1C5B30FD00405DA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED14ED921C5B359100D10786 /* ProfileDetailSegue.swift in Sources */,
 				EDD44EC61C5B30FE00405DA3 /* ViewController.swift in Sources */,
+				ED14ED861C5B340500D10786 /* Profile.swift in Sources */,
+				ED14ED971C5B393F00D10786 /* ProfileTableViewCell.swift in Sources */,
+				ED14ED881C5B342700D10786 /* ProfileListViewModel.swift in Sources */,
 				EDD44EC41C5B30FE00405DA3 /* AppDelegate.swift in Sources */,
+				ED14ED8A1C5B343D00D10786 /* ProfileViewModel.swift in Sources */,
+				ED14ED941C5B35C100D10786 /* ProfileDetailTableViewController.swift in Sources */,
+				ED14ED8F1C5B353900D10786 /* ProfileListTableViewController.swift in Sources */,
+				ED14ED8C1C5B346000D10786 /* ProfileService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +550,7 @@
 		};
 		EDD44EE91C5B30FE00405DA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D16EF54AD106DD23E01B5ED2 /* Pods-FeedProfileViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FeedProfileViewer/Info.plist;
@@ -406,6 +562,7 @@
 		};
 		EDD44EEA1C5B30FE00405DA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45512617EA796683720041A7 /* Pods-FeedProfileViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FeedProfileViewer/Info.plist;
@@ -480,6 +637,7 @@
 				EDD44EEA1C5B30FE00405DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDD44EEB1C5B30FE00405DA3 /* Build configuration list for PBXNativeTarget "FeedProfileViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +646,7 @@
 				EDD44EED1C5B30FE00405DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDD44EEE1C5B30FE00405DA3 /* Build configuration list for PBXNativeTarget "FeedProfileViewerUITests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +655,7 @@
 				EDD44EF01C5B30FE00405DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
